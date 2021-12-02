@@ -1,0 +1,17 @@
+<mvc:View controllerName="AmChart.AmChart.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"
+	xmlns:core="sap.ui.core" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="AM Charts">
+					<content>
+						<core:HTML
+							content='&lt;div id=&quot;chart1&quot; style=&quot;height: 100%; overflow: hidden; position: relative;&quot;&gt;&lt;h4&gt;&lt;/div&gt;'></core:HTML>
+						<core:HTML
+							content='&lt;div id=&quot;chart2&quot; style=&quot;height: 100%; overflow: hidden; position: relative;&quot;&gt;&lt;h4&gt;&lt;/div&gt;'></core:HTML>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
